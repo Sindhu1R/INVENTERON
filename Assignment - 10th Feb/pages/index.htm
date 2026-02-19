@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Login + Captcha</title>
+
+<link rel="stylesheet" href="../css/style.css">
+
+</head>
+
+<body>
+
+<div class="card">
+  <h2>Login</h2>
+
+  <!-- Username + Password -->
+  <input type="text" id="username" placeholder="Username" />
+  <input type="password" id="password" placeholder="Password" />
+
+  <button onclick="submit()">Submit</button>
+
+  <div id="successMsg" class="success hidden">Submitted Successfully</div>
+
+  <!-- Captcha Section -->
+  <div id="captchaSection" class="hidden">
+    <div class="captcha-box" id="captchaText"></div>
+    <input type="text" id="captchaInput" placeholder="Enter Captcha" />
+    <button onclick="verifyCaptcha()">Verify Captcha</button>
+  </div>
+</div>
+
+<script src="../js/script.js"></script>
+
+</body>
+</html>

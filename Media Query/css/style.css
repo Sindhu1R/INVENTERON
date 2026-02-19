@@ -1,0 +1,34 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #cfd1d2;
+}
+
+.form-box {
+    background-color: white;
+    width: 400px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+/* ===== Media Query for Tablets & Mobiles ===== */
+@media (max-width: 768px) {
+    .form-box {
+        width: 90%;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+}
+
+/* ===== Media Query for Small Mobiles ===== */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    .form-box {
+        padding: 15px;
+    }
+}
