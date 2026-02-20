@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BootStrap-2</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+</head>
+<body>
+
+    <!-- 17 concepts were taught with examples even the assignment is counted here -->
+
+    <!-- 1) BootStrap Spacing -->
+    <!--mt-5 : margin top large and p-3 : padding medium all sides-->
+    <div class="mt-5 p-3">Box</div>
+
+    <!-- 2) BootStrap spacing with bg color and mb spacing demo-->
+    <!-- bg-primary : bg color blue, text-white : makes text white, mb-3 : margin bottom spacing-->
+    <div class="bg-primary text-white p-3 mb-3">First Box</div>
+    <div class="bg-success text-white p-3 ">Second Box</div>
+
+    <!-- 3) Margin space demo-->
+    <div class="ms-5">Left Space</div>
+    <div class="me-5">Right Space</div>
+    <div class="my-4">Top and Bottom Space</div>
+    <div class="mx-2">Left and Right Space</div>
+
+    <!-- 4) Combined Spacing + Typography Example-->
+    <div class="container mt-5">
+
+        <h1 class="text-center mb-4">My Page Title</h1-->
+
+        <!-- fs : font size -->
+        <p class="fs-5 p-3 bg-light">This paragraph has padding inside and margin outside.</p>
+
+    </div>
+
+    <!-- 5) Button Variants Example-->
+    <button class="btn btn-primary">Save</button> <!--Blue-->
+    <button class="btn btn-secondary">Cancel</button> <!--Grey-->
+    <button class="btn btn-success">Payment Success</button> <!--Green-->
+    <button class="btn btn-danger">Delete</button> <!--Red-->
+    <button class="btn btn-warning">Warning</button> <!--Yellow-->
+    <button class="btn btn-info">More Info</button> <!--Light Blue-->
+    <br><br><br>
+
+    <!-- 6) Button Sizes-->
+    <button class="btn btn-primary btn-lg">Large Button</button>
+    <button class="btn btn-primary btn-sm">Small Button</button>
+
+    <!-- 7) Outline Button (Give only blue outline when seen because of "primary" and when cursor is hovered on the button it turns blue)-->
+    <button class="btn btn-outline-primary">Outline Button</button>
+
+
+
+    <!-- 8) Basic Card Example-->
+    <!--1 rem = 16 px-->
+    <div class="card" style="width: 18rem;">
+        <img src="https://via.placeholder.com/300x150" class="card-img-top">
+
+        <div class="card-body">
+            <h5 class="card-title">Product Title</h5>
+            <p class="card-text">
+                Short Description of the Product.
+            </p>
+            <a href="#" class="btn btn-primary">Buy Now</a>
+        </div>
+    </div>
+
+    <!-- 9) Container with a single row and 3 columns and card-->
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                    Card 1
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                    Card 2
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                    Card 3
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 10) Assignment with image and button -->
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/300x150" class="card-img-top">
+                    <div class="card-body">
+                    Card 1
+                    <p class="card-text">Short Description of the Card 1.</p>
+                    <a href="#" class="btn btn-primary">Know More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/300x150" class="card-img-top">
+                    <div class="card-body">
+                    Card 2
+                    <p class="card-text">Short Description of the Card 2.</p>
+                    <a href="#" class="btn btn-primary">Know More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/300x150" class="card-img-top">
+                    <div class="card-body">
+                    Card 3
+                    <p class="card-text">Short Description of the Card 3.</p>
+                    <a href="#" class="btn btn-primary">Know More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br><br>
+
+    <!-- 11) Alert-->
+    <div class="alert alert-success">Payment Successful!</div>
+    <div class="alert alert-danger">Error! Something went wrong.</div>
+    <div class="alert alert-warning">Please check your input</div>
+    <div class="alert alert-info">New update avaliable</div>
+    <br><br><br>
+
+    <!-- 12) Dismissable Alert -  alert message can be cancelled-->
+    <div class="alert alert-warning alert-dismissible fade show">
+        Warning Message
+        <button class="btn-close" data-bs-dismiss="alert"></button>
+    </div>
+    <br><br><br>
+
+    <!-- 13) Badges : to make text look a little bit smaller ..... Used for notification purpose-->
+    <span class="badge bg-success">New</span>
+    <br><br><br>
+
+    <!-- 14) Badge with Button-->
+    <button class="btn btn-primary">
+        Messages
+        <span class="badge bg-danger">5</span>
+    </button>
+    <br><br><br>
+
+    <!-- 15) Progress Bars-->
+    <div class="progress">
+        <div class="progress-bar" style="width: 70%;">
+            70%
+        </div>
+    </div>
+    <br><br><br>
+
+    <!-- 16) Coloured Progress Bar-->
+    <div class="progress">
+        <div class="progress-bar bg-success" style="width: 40%;">
+            40%
+        </div>
+    </div>
+    <br><br><br>
+
+    <!-- 17) Animated Progress Bar-->
+    <div class="progress">
+        <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 60%;">
+            60%
+        </div>
+    </div>
+    <br><br><br>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
